@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panda Commerce</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <img src="./panda-commerce/logo.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Help Center</a>
+                    <a class="dropdown-item" href="#">About Us</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Report a problem</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Subscribe</a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>
+    </div>
+    <div class="container">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner carousel-bg">
+              <div class="carousel-item active" data-interval="5000">
+                <div class="row align-items-center">
+                    <div class="col-md-7">
+                        <h1>Beats by Dre </h1>
+                        <p>Powerbeats matches the sleek design and advanced engineering of Powerbeats Pro, with the same powerful sound and reinforced sweat and water resistance.</p>
+                        <h1 class="price">$420</h1>
+                        <button type="button" class="buy-now-button">Primary</button>
+                    </div>
+                    <div class="col-md-5">
+                        <img src="./panda-commerce/banner-images/headphone.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item" data-interval="5000">
+                <div class="row align-items-center">
+                    <div class="col-md-7">
+                        <h1>Samsung Curved UHD Android Tv</h1>
+                        <p>Picture quality to move you, made possible by a single chip that orchestrates color, optimizes high contrast ratio, and masters HDR.</p>
+                        <h1 class="price">$2450</h1>
+                        <button type="button" class="buy-now-button">Primary</button>
+                    </div>
+                    <div class="col-md-5">
+                        <img src="./panda-commerce/banner-images/tv.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item" data-interval="5000">
+                <div class="row align-items-center">
+                    <div class="col-md-7">
+                        <h1>Xbox One X Gears 5 Bundle (1TB)</h1>
+                        <p>Play worry-free with up to three years of accidental damage coverage for your Xbox One console and included controller</p>
+                        <h1 class="price">$299</h1>
+                        <button type="button" class="buy-now-button">Primary</button>
+                    </div>
+                    <div class="col-md-5">
+                        <img src="./panda-commerce/banner-images/xbox.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+
+    </div>
+    <div class="container">
+        <div class="container category">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="d-flex justify-content-between align-items-center cat1">
+                        <h1>Watch</h1>
+                    <img src="./panda-commerce/categories/watch.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="d-flex justify-content-between align-items-center cat2">
+                        <h1>Shoes</h1>
+                    <img src="./panda-commerce/categories/shoes.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="d-flex justify-content-between align-items-center cat3">
+                        <h1>Bag</h1>
+                        <img src="./panda-commerce/categories/bag.png" alt="">
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container shoes" id="shoes">
+        <h3>Shoes</h3>
+        <div class="card-deck">
+            <div class="card">
+              <img src="./panda-commerce/shoes/shoe-1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Nike Zoom Gravity</h5>               
+                <p class="card-text">Designed to make fast go faster, the Nike Zoom Gravity is built to take you from quick tempo runs to winning races. Snappy forefoot propulsion and grippy, multi-surface traction combine to maximize your stride.</p>
+                <h5>$150</h5>
+                <button type="button" class="buy-now-button">Buy Now >></button>
+                <p class="card-text"><small class="text-muted">Last updated 10 mins ago</small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./panda-commerce/shoes/shoe-2.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"> Nike Downshifter 10</h5>
+                <p class="card-text">The Nike Downshifter 10 is all about updated support and cushioning. Built for a smooth and consistent ride, the Nike Legend React 3 is all about cushioning. Its padded design helps keep you moving as you push through your miles.</p>
+                <h5>$120</h5>
+                <button type="button" class="buy-now-button">Buy Now >></button>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./panda-commerce/shoes/shoe-3.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Nike Legend React 3</h5>
+                <p class="card-text">Built for a smooth and consistent ride, the Nike Legend React 3 is all about cushioning. The latest version to your favourite features plush details and stability where you need it, keeping your foot secure with every step.</p>
+                <h5>$220</h5>
+                <button type="button" class="buy-now-button">Buy Now >></button>
+                <p class="card-text"><small class="text-muted">Last updated 5 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+    </div> 
+    <div class="container" id="backpack">
+        <div class="card-deck">
+            <div class="card">
+              <img src="./panda-commerce/bags/bag-1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">FIGO PLUS 05 BACKPACK RED</h5>
+                <h5>$22</h5>
+                <p class="card-text">Skybags brings you the latest collection of backpack bags for men and women online that has ample space to carry all your essentials and which leaves an impression with a style quotient where ever it goes. Shop all your favorite and stylish backpacks online at a discounted price only from the official Skybags online stores</p>
+                
+              </div>
+              <div class="card-footer">
+                <button type="button" class="buy-now-button">Buy Now >></button>
+              </div>
+            </div>
+            <div class="card">
+              <img src="/panda-commerce/bags/bag-2.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">GEEK 05 LAPTOP BACKPACK BLUE</h5>
+                <h5>$30</h5>
+                <p class="card-text">Skybags brings you the latest collection of backpack bags for men and women online that has ample space to carry all your essentials and which leaves an impression with a style quotient where ever it goes. Shop all your favorite and stylish backpacks online at a discounted price only from the official Skybags online stores</p>
+               
+              </div>
+              <div class="card-footer">
+                <button type="button" class="buy-now-button">Buy Now >></button>
+              </div>
+            </div>
+            <div class="card">
+              <img src="/panda-commerce/bags/bag-3.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">TECKIE 04 LAPTOP BACKPACK BLACK</h5>
+                <h5>$45</h5>
+                <p class="card-text">Skybags brings you the latest collection of backpack bags for men and women online that has ample space to carry all your essentials and which leaves an impression with a style quotient where ever it goes. Shop all your favorite and stylish backpacks online at a discounted price only from the official Skybags online stores</p>
+                
+              </div>
+              <div class="card-footer">
+                <button type="button" class="buy-now-button">Buy Now >></button>
+              </div>
+            </div>
+          </div>
+    </div>
+    <div class="container d-flex align-items-center justify-content-center carousel-bg" id="subscribe">
+        <div>
+            <h3>Let's Stay connected!</h3>
+        <h6>Get updates on sales special and more.</h6>
+        <input type="email" placeholder="Enter your email">
+        <button type="button" class="buy-now-button">Submit</button>
+        </div>
+        
+    </div>
+    <footer>
+      <small>&copy;copyright 2020 All rights reserved by Panda Commerce, Sofia, Bulgaria.</small> 
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
